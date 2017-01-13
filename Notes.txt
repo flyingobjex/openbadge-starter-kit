@@ -1,1 +1,3 @@
 http://backpack.openbadges.org/baker?assertion=https://arcane-dawn-73446.herokuapp.com/badges/assertion.json
+
+http://bakery.openbadges.org/
