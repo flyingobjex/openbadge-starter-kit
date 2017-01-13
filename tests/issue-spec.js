@@ -12,7 +12,7 @@ const assertion = {
     "salt": "deadsea",
     "identity": "sha256$c7ef86405ba71b85acd8e2e95166c4b111448089f2e1599f42fe1bba46e865c5"
   },
-  "image": "https://example.org/beths-robot-badge.png",
+  "image": "https://arcane-dawn-73446.herokuapp.com/images/stamp.png",
   "evidence": "https://example.org/beths-robot-work.html",
   "issuedOn": "2016-12-31T23:59:59Z",
   "expires": "2017-06-30T23:59:59Z",
