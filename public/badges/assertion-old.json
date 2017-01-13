@@ -12,5 +12,8 @@
   "evidence": "https://example.org/beths-robot-work.html",
   "issuedOn": "2016-12-31T23:59:59Z",
   "expires": "2017-06-30T23:59:59Z",
-  "badge": "https://example.org/robotics-badge.json"
+  "badge": "https://example.org/robotics-badge.json",
+  "verification": {
+    "type": "hosted"
+  }
 }
