@@ -1,7 +1,7 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Issuer",
-  "id": "https://example.org/organization.json",
+  "id": "https://arcane-dawn-73446.herokuapp.com",
   "name": "An Example Badge Issuer",
   "image": "https://example.org/logo.png",
   "url": "https://example.org",

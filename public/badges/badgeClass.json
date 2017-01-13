@@ -4,8 +4,8 @@
   "id": "https://example.org/robotics-badge.json",
   "name": "Awesome Robotics Badge",
   "description": "For doing awesome things with robots that people think is pretty great.",
-  "image": "https://example.org/robotics-badge.png",
-  "criteria": "https://example.org/robotics-badge.html",
+  "image": "https://arcane-dawn-73446.herokuapp.com/images/stamp.png",
+  "criteria": "https://arcane-dawn-73446.herokuapp.com/badge.html",
   "tags": ["robots", "awesome"],
   "issuer": "https://example.org/organization.json",
   "alignment": [
