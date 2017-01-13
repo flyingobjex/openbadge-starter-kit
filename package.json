@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "babel-node ./bin/www",
-    "run": "nodemon --exec babel-node ./bin/www --ignore public/",
+    "start": "node ./bin/www",
+    "dev": "nodemon --exec node ./bin/www --ignore public/",
     "watch": "nodemon -L -e hbs,js,html --watch src --watch tests --watch bin --watch views --watch routes --exec npm start"
   },
   "dependencies": {

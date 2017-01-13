@@ -1,8 +1,4 @@
-const expect = require('chai').expect;
-const request = require('request');
-const fs = require('fs');
-
-const assertion = {
+{
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
   "id": "https://example.org/beths-robotics-badge.json",
@@ -20,26 +16,4 @@ const assertion = {
   "verification": {
     "type": "hosted"
   }
-};
-
-const badgeImage = "tests/stamp.png";
-
-async function doAsyncOp () {
-
-  console.log(val);
-  return val;
 }
-
-
-describe('The badge issuer', function() {
-  it('should hit the badge server', function(done){
-    request()
-  });
-
-  it('should pass a test', function(done){
-    console.info('|| issue-spec.js.() || :: ');
-    expect(true).to.equal(true);
-    done();
-  });
-
-});
