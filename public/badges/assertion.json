@@ -1,7 +1,7 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://arcane-dawn-73446.herokuapp.com/badges/assertion.json",
+  "id": "https://arcane-dawn-73446.herokuapp.com/badges/badgeClass.json",
   "recipient": {
     "type": "email",
     "hashed": true,
@@ -12,9 +12,8 @@
   "evidence": "https://arcane-dawn-73446.herokuapp.com/badge.html",
   "issuedOn": "2016-12-31T23:59:59Z",
   "expires": "2017-06-30T23:59:59Z",
-  "badge": "https://example.org/robotics-badge.json",
+  "badge": "https://arcane-dawn-73446.herokuapp.com/badges/badge.json",
   "verify": {
-    "type": "hosted",
-    "url": "https://arcane-dawn-73446.herokuapp.com/badges/assertion.json"
+    "type": "hosted"
   }
 }

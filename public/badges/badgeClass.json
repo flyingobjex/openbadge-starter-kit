@@ -1,13 +1,13 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://example.org/robotics-badge.json",
+  "id": "https://arcane-dawn-73446.herokuapp.com/badges/badgeClass.json",
   "name": "Awesome Robotics Badge",
   "description": "For doing awesome things with robots that people think is pretty great.",
   "image": "https://arcane-dawn-73446.herokuapp.com/images/stamp.png",
   "criteria": "https://arcane-dawn-73446.herokuapp.com/badge.html",
   "tags": ["robots", "awesome"],
-  "issuer": "https://example.org/organization.json",
+  "issuer": "https://arcane-dawn-73446.herokuapp.com/badges/issuer.json",
   "alignment": [
     { "targetName": "CCSS.ELA-Literacy.RST.11-12.3",
       "targetUrl": "http://www.corestandards.org/ELA-Literacy/RST/11-12/3",

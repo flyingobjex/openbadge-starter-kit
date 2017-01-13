@@ -3,8 +3,8 @@
   "type": "Issuer",
   "id": "https://arcane-dawn-73446.herokuapp.com",
   "name": "An Example Badge Issuer",
-  "image": "https://example.org/logo.png",
-  "url": "https://example.org",
+  "image": "https://arcane-dawn-73446.herokuapp.com/images/stamp.png",
+  "url": "https://arcane-dawn-73446.herokuapp.com",
   "email": "contact@example.org",
   "publicKey": "https://example.org/publicKey.json",
   "revocationList": "https://example.org/revocationList.json"
