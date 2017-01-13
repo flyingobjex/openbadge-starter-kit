@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const bakery = require('openbadges-bakery');
+const request = require('request');
 const fs = require('fs');
 
 const assertion = {
@@ -25,21 +25,8 @@ const assertion = {
 const badgeImage = "tests/stamp.png";
 
 describe('The badge issuer', function() {
-  it('should load a png image into a stream', function(done){
-    fs.readFile(badgeImage, function(err, imageBuffer){
-      const options = {
-        image:imageBuffer,
-        assertion:assertion
-      };
-      // console.info('|| issue-spec.js.() imageData = ', imageBuffer);
-      console.info(imageBuffer);
-      console.info('|| issue-spec.js.() Buffer.isBuffer(imageBuffer) = ', Buffer.isBuffer(imageBuffer));
-
-      bakery.bake(options, function(err, imageData){
-        console.info('|| issue-spec.js.() imageData = ', imageData);
-        done();
-      });
-    });
+  it('should hit the badge server', function(done){
+    request()
   });
 
   it('should pass a test', function(done){
